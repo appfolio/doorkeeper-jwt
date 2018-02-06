@@ -18,6 +18,7 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
+  spec.metadata["allowed_push_host"] = "https://gemini.atl.appfolio.com"
 
   spec.add_dependency "jwt", "~> 1.5.2", ">= 1.5.2"
 
